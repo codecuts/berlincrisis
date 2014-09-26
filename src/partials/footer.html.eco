@@ -1,0 +1,3 @@
+	<%- @getBlock("scripts").add(["/scripts/scripts.js"]).toHTML() %>
+</body>
+</html>

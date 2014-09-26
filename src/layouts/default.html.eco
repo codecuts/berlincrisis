@@ -1,0 +1,3 @@
+<%- @partial('header') %>
+	<p>Nothing yet</p>
+<%- @partial('footer') %>
