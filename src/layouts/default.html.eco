@@ -2,13 +2,4 @@
 	<section class="intro section">
 		<%- @partial('intro') %>
 	</section>
-	<section class="about section">
-		<%- @partial('about') %>
-	</section>
-	<section class="schedule section">
-		<%- @partial('schedule') %>
-	</section>
-	<section class="location section">
-		<%- @partial('location') %>
-	</section>
 <%- @partial('footer') %>
