@@ -1,3 +1,6 @@
 <%- @partial('header') %>
-	<p>Nothing yet</p>
+	<section class="intro section"></section>
+	<section class="about section"></section>
+	<section class="schedule section"></section>
+	<section class="location section"></section>
 <%- @partial('footer') %>
