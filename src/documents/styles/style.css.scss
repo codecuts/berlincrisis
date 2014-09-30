@@ -3,8 +3,8 @@
 @import 'site-wide-styles';
 @import 'typography';
 
-/**  Mobile (First) Layout & Styles
- ---------------------------------------------------- */
+/**  Mobile (First) Layout
+---------------------------------------------------- */
 
 .section {
 	overflow: hidden;
@@ -16,17 +16,49 @@
 		width: 100%;
 
 		.logo {
-			margin-top: 7.5vh
+			margin-top: 7.5vh;
 		}
+
+		.contacts {
+			margin-top: 3em;
+			text-align: center;
+		}
+
+	}
+
+/**  Mobile (First) Module Styles
+---------------------------------------------------- */
+
+.section {
+
+	h1 {
+		margin: 0 0 0.89em 0;
+		font-family: $headerFont;
+		font-size: 2.25em;
+		line-height: 0.85em;
+		color: $lightFont;
+	}
+
+	p {
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+
+	}
+
+}
+
+	.section.intro {
 
 		.title,
 		.subtitle,
 		.contacts a {
-			font-family: 'ImpactRegular', sans-serif;
+			font-family: $headerFont;
 		}
 
 		.title {
-			font-family: 'ImpactRegular', sans-serif;
+			font-family: $headerFont;
 			font-size: 3.5em;
 			font-weight: normal;
 			line-height: 1em;
@@ -47,9 +79,6 @@
 
 		.contacts {
 			width: 100%;
-			text-align: center;
-			margin-top: 3em;
-
 
 			.twitter,
 			.mail {
@@ -62,6 +91,36 @@
 
 			.mail {
 				margin-top: -1.1rem;
+			}
+
+		}
+
+	}
+
+	.section.registration {
+
+		.register {
+			height: 24.2rem;
+			margin-bottom: 1.5em;
+		}
+
+		.map {
+			border-radisu: 0.5rem;
+		}
+
+		.map-overlay {
+			background:transparent;
+			position:relative;
+			width:100%;
+			height:480px;
+			top:480px;
+			margin-top:-480px;
+		}
+
+		@media (min-width: $smallDeviceMin ) {
+
+			.register {
+				height: 20.5rem;
 			}
 
 		}
