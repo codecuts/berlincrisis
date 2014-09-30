@@ -2,3 +2,68 @@
 @import 'variables';
 @import 'site-wide-styles';
 @import 'typography';
+
+/**  Mobile (First) Layout & Styles
+ ---------------------------------------------------- */
+
+.section {
+	overflow: hidden;
+	padding: 3rem;
+}
+
+	.section.intro {
+		height: 100vh;
+		width: 100%;
+
+		.logo {
+			margin-top: 7.5vh
+		}
+
+		.title,
+		.subtitle,
+		.contacts a {
+			font-family: 'ImpactRegular', sans-serif;
+		}
+
+		.title {
+			font-family: 'ImpactRegular', sans-serif;
+			font-size: 3.5em;
+			font-weight: normal;
+			line-height: 1em;
+			margin: 0;
+		}
+
+		.subtitle {
+			letter-spacing: -0.1rem;
+			color: $lightFont;
+			margin: 0;
+
+			.separator {
+				font-size: 2.6rem;
+				line-height: 4rem;
+				vertical-align: bottom;
+			}
+		}
+
+		.contacts {
+			width: 100%;
+			text-align: center;
+			margin-top: 3em;
+
+
+			.twitter,
+			.mail {
+				display: inline-block;
+				padding: 0.4rem;
+				font-size: 1.4em;
+				color: #b8b8b8;
+				background: $darkFont;
+			}
+
+			.mail {
+				margin-top: -1.1rem;
+			}
+
+		}
+
+	}
