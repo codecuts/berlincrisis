@@ -14,16 +14,6 @@
 	.section.intro {
 		height: 100vh;
 		width: 100%;
-
-		.logo {
-			margin-top: 7.5vh;
-		}
-
-		.contacts {
-			margin-top: 3em;
-			text-align: center;
-		}
-
 	}
 
 /**  Mobile (First) Module Styles
@@ -50,6 +40,21 @@
 }
 
 	.section.intro {
+
+		.logo {
+			margin-top: 6.5vh;
+		}
+
+		@media (min-width: $smallDeviceMin) {
+			.logo {
+				margin-top: 7vh;
+			}
+		}
+
+		.contacts {
+			margin-top: 4em;
+			text-align: center;
+		}
 
 		.title,
 		.subtitle,
@@ -81,7 +86,8 @@
 			width: 100%;
 
 			.twitter,
-			.mail {
+			.mail,
+			.hashtag {
 				display: inline-block;
 				padding: 0.4rem;
 				font-size: 1.4em;
@@ -91,6 +97,22 @@
 
 			.mail {
 				margin-top: -1.1rem;
+			}
+
+			.hashtag {
+				margin-top: -0.9rem;
+				transform: rotate(-11deg);
+			}
+
+			@media (min-width: $smallDeviceMin) {
+				.hashtag {
+					position: absolute;
+					top: 16vh;
+					right: 12vw;
+					background: transparent;
+					transform: rotate(12deg);
+					font-size: 2em;
+				}
 			}
 
 		}
