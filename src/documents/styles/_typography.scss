@@ -4,12 +4,46 @@
 
 html {
     font-size: 62.5%; /* sets root font size to ~10px */
-    font-family: 'Ubuntu', sans-serif;
+}
+
+@media (min-width: $mediumDeviceMin) {
+	html {
+		font-size: 100%;
+	}
+}
+
+/**  Verticla Rhythm
+ ---------------------------------------------------- */
+
+body {
+	font-size: 1.6rem;  /* 16 px base font size */
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+	font-size: 1em; /* 16px */
+	line-height: 1.5em; /* 24 px */
+	margin: 0 0 1.5em 0;
+}
+
+.h1 {
+	font-size: 1.5em; /* 32px */
+	line-height: 1em; /* 24px */
+	margin: 1em 0;
 }
 
 
+/**  Fonts
+ ---------------------------------------------------- */
+
 @font-face {
-  font-family: 'Impact';
-  src: url('fonts/impact.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-       url('impact.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    font-family: 'ImpactRegular';
+    src: url('../fonts/impact-webfont.eot');
+    src: url('../fonts/impact-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/impact-webfont.woff') format('woff'),
+         url('../fonts/impact-webfont.ttf') format('truetype'),
+         url('../fonts/impact-webfont.svg#ImpactRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
