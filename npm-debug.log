@@ -1,0 +1,104 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/home/ethan/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'docpad-plugin-docplad-plugin-coffeescript@2',
+1 verbose cli   '--save' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.32
+4 warn package.json no-skeleton.docpad@0.1.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'docpad-plugin-docplad-plugin-coffeescript@2', null ]
+7 verbose cache add spec="docpad-plugin-docplad-plugin-coffeescript@2" args=["docpad-plugin-docplad-plugin-coffeescript@2",null]
+8 verbose parsed spec { raw: 'docpad-plugin-docplad-plugin-coffeescript@2',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'docpad-plugin-docplad-plugin-coffeescript',
+8 verbose parsed spec   rawSpec: '2',
+8 verbose parsed spec   spec: '>=2.0.0 <3.0.0',
+8 verbose parsed spec   type: 'range' }
+9 verbose parsed spec { raw: 'docpad-plugin-docplad-plugin-coffeescript@2',
+9 verbose parsed spec   scope: null,
+9 verbose parsed spec   name: 'docpad-plugin-docplad-plugin-coffeescript',
+9 verbose parsed spec   rawSpec: '2',
+9 verbose parsed spec   spec: '>=2.0.0 <3.0.0',
+9 verbose parsed spec   type: 'range' }
+10 verbose addNamed [ 'docpad-plugin-docplad-plugin-coffeescript',
+10 verbose addNamed   '>=2.0.0 <3.0.0' ]
+11 verbose addNamed [ null, '>=2.0.0 <3.0.0' ]
+12 silly lockFile 611cb36a--plugin-coffeescript-2-0-0-3-0-0 docpad-plugin-docplad-plugin-coffeescript@>=2.0.0 <3.0.0
+13 verbose lock docpad-plugin-docplad-plugin-coffeescript@>=2.0.0 <3.0.0 /home/ethan/.npm/611cb36a--plugin-coffeescript-2-0-0-3-0-0.lock
+14 silly addNameRange { name: 'docpad-plugin-docplad-plugin-coffeescript',
+14 silly addNameRange   range: '>=2.0.0 <3.0.0',
+14 silly addNameRange   hasData: false }
+15 verbose mapToRegistry name docpad-plugin-docplad-plugin-coffeescript
+16 verbose mapToRegistry uri https://registry.npmjs.org/docpad-plugin-docplad-plugin-coffeescript
+17 verbose request on initialization, where is /docpad-plugin-docplad-plugin-coffeescript
+18 verbose request after pass 1, where is /docpad-plugin-docplad-plugin-coffeescript
+19 verbose request url raw /docpad-plugin-docplad-plugin-coffeescript
+20 verbose request resolving registry [ 'https://registry.npmjs.org/',
+20 verbose request   './docpad-plugin-docplad-plugin-coffeescript' ]
+21 verbose request after pass 2, where is https://registry.npmjs.org/docpad-plugin-docplad-plugin-coffeescript
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 14:54:00
+24 verbose request id 55c5340738192fc3
+25 http request GET https://registry.npmjs.org/docpad-plugin-docplad-plugin-coffeescript
+26 http 404 https://registry.npmjs.org/docpad-plugin-docplad-plugin-coffeescript
+27 verbose headers { date: 'Wed, 01 Oct 2014 12:54:06 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-ams4125-AMS',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1412168046.009112,VS0,VE373',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Wed, 01 Oct 2014 12:54:06 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-ams4125-AMS',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1412168046.009112,VS0,VE373',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 611cb36a--plugin-coffeescript-2-0-0-3-0-0 docpad-plugin-docplad-plugin-coffeescript@>=2.0.0 <3.0.0
+30 silly lockFile 611cb36a--plugin-coffeescript-2-0-0-3-0-0 docpad-plugin-docplad-plugin-coffeescript@>=2.0.0 <3.0.0
+31 verbose stack Error: 404 Not Found: docpad-plugin-docplad-plugin-coffeescript
+31 verbose stack     at RegClient.<anonymous> (/home/ethan/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:259:14)
+31 verbose stack     at Request._callback (/home/ethan/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:198:65)
+31 verbose stack     at Request.self.callback (/home/ethan/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+31 verbose stack     at Request.emit (events.js:98:17)
+31 verbose stack     at Request.<anonymous> (/home/ethan/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+31 verbose stack     at Request.emit (events.js:117:20)
+31 verbose stack     at IncomingMessage.<anonymous> (/home/ethan/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+31 verbose stack     at IncomingMessage.emit (events.js:117:20)
+31 verbose stack     at _stream_readable.js:943:16
+31 verbose stack     at process._tickCallback (node.js:419:13)
+32 verbose statusCode 404
+33 verbose pkgid docpad-plugin-docplad-plugin-coffeescript
+34 verbose cwd /home/ethan/Sites/berlincrisis
+35 error Linux 3.16.0-14-generic
+36 error argv "node" "/home/ethan/local/bin/npm" "install" "docpad-plugin-docplad-plugin-coffeescript@2" "--save"
+37 error node v0.10.32
+38 error npm  v2.0.0
+39 error code E404
+40 error 404 Not Found: docpad-plugin-docplad-plugin-coffeescript
+40 error 404
+40 error 404 'docpad-plugin-docplad-plugin-coffeescript' is not in the npm registry.
+40 error 404 You should bug the author to publish it (or use the name yourself!)
+40 error 404 It was specified as a dependency of 'no-skeleton.docpad'
+40 error 404
+40 error 404 Note that you can also install from a
+40 error 404 tarball, folder, http url, or git url.
+41 verbose exit [ 1, true ]
