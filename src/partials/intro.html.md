@@ -11,5 +11,5 @@
 <div class="contacts">
 	<a class="twitter" href="http://twitter.com/berlincrisis">On Twitter <span class="hover-effect">@berlincrisis</span></a><br/>
 	<a class="mail" href="mailto:mail@berlincrisis.info"><span class="hover-effect">mail</span>@berlincrisis.info</a><br/>
-	<a class="hashtag" href="http://globalcrisis.tweetwally.com/"><span class="hover-effect">#globalcrisis</span></a>
+	<a class="hashtag" href=""><span class="hover-effect">#globalcrisis</span></a>
 </div>
