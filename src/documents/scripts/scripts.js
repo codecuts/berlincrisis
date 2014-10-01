@@ -4,7 +4,6 @@ window.addEvent('domready', function() {
 
 	// Handle resize event
 	function updateLayout() {
-		console.log('updating layout');
 		$$('section.intro').setStyle('height', window.getSize().y);
 	}
     window.addEvent('resize', updateLayout.debounce(250));
