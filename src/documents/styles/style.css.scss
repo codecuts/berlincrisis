@@ -42,18 +42,44 @@
 	.section.intro {
 
 		.logo {
-			margin-top: 6.5vh;
-		}
-
-		@media (min-width: $smallDeviceMin) {
-			.logo {
-				margin-top: 7vh;
-			}
+			margin-top: 1.55em;
 		}
 
 		.contacts {
 			margin-top: 4em;
 			text-align: center;
+		}
+
+		@media (min-width: $smallDeviceMin) and (orientation: portrait) {
+
+			.logo {
+				margin-top: 6.7em;
+			}
+
+			.contacts {
+				margin-top: 8em;
+			}
+
+		}
+
+		@media (min-width: $smallDeviceMin) and (orientation: landscape) {
+
+			.logo {
+				margin-top: 0;
+			}
+
+			.contacts {
+				//margin-top: 3em;
+			}
+		}
+
+		@media (min-width: $mediumDeviceMin ) {
+			.logo {
+				margin-top: 3.4em;
+			}
+			.contacts {
+				margin-top: 4.4em;
+			}
 		}
 
 		.title,
@@ -63,11 +89,12 @@
 		}
 
 		.title {
+			line-height: 1em;
+			margin: 0;
 			font-family: $headerFont;
 			font-size: 3.5em;
 			font-weight: normal;
-			line-height: 1em;
-			margin: 0;
+			color: $darkFont;
 		}
 
 		.subtitle {
@@ -107,11 +134,15 @@
 			@media (min-width: $smallDeviceMin) {
 				.hashtag {
 					position: absolute;
-					top: 16vh;
-					right: 12vw;
+					top: 5.2rem;
+					right: 4.8rem;
 					background: transparent;
-					transform: rotate(12deg);
 					font-size: 2em;
+
+					-webkit-transform: rotate(13deg);
+					-ms-transform: rotate(13deg);
+					transform: rotate(13deg);
+
 				}
 			}
 

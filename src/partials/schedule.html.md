@@ -3,7 +3,8 @@
 ## Tuesday, 4 November 2014    
     
 10.00 – 10:30: Welcome   
-Introductions:  Representatives of the Einstein Stiftung, the JFKI / GSNAS, and Nancy Fraser, Loeb Professor of Politics and Philosophy, New School for Social Research, and Einstein fellow, JFKI-GSNAS, Free University, Berlin 
+**Introductions:**  
+Representatives of the Einstein Stiftung, the JFKI / GSNAS, and Nancy Fraser, Loeb Professor of Politics and Philosophy, New School for Social Research, and Einstein fellow, JFKI-GSNAS, Free University, Berlin 
 
 10.30 – 13.00:   
 **Capitalism’s Ecologies:  

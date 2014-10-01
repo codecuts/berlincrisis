@@ -6,6 +6,12 @@ html {
     font-size: 62.5%; /* sets root font size to ~10px */
 }
 
+@media (min-width: $smallDeviceMin) and (orientation: portrait) {
+	html {
+		font-size: 95%;
+	}
+}
+
 @media (min-width: $mediumDeviceMin) {
 	html {
 		font-size: 100%;
