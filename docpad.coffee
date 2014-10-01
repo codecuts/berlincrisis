@@ -16,9 +16,13 @@ docpadConfig = {
 
 	environments:
 		development:
-			url: "http://localhost:9778"
+			templateData:
+				site:
+					url: "http://localhost:9778"
 		static:
-			url: "http://berlincrisis.info"
+			templateData:
+				site:
+					url: "http://berlincrisis.info"
 
 }
 
