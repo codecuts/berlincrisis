@@ -8,18 +8,19 @@
 
 .section {
 	overflow: hidden;
-	padding: 3rem;
+	margin: 3rem;
 }
 
 	.section.intro {
-		height: 100vh;
-		width: 100%;
+
+
 	}
 
 /**  Mobile (First) Module Styles
 ---------------------------------------------------- */
 
 .section {
+	position: relative;
 
 	h1 {
 		margin: 0 0 0.89em 0;
@@ -41,47 +42,6 @@
 
 	.section.intro {
 
-		.logo {
-			margin-top: 1.55em;
-		}
-
-		.contacts {
-			margin-top: 4em;
-			text-align: center;
-		}
-
-		@media (min-width: $smallDeviceMin) and (orientation: portrait) {
-
-			.logo {
-				margin-top: 6.7em;
-			}
-
-			.contacts {
-				margin-top: 8em;
-			}
-
-		}
-
-		@media (min-width: $smallDeviceMin) and (orientation: landscape) {
-
-			.logo {
-				margin-top: 0;
-			}
-
-			.contacts {
-				//margin-top: 3em;
-			}
-		}
-
-		@media (min-width: $mediumDeviceMin ) {
-			.logo {
-				margin-top: 3.4em;
-			}
-			.contacts {
-				margin-top: 4.4em;
-			}
-		}
-
 		.title,
 		.subtitle,
 		.contacts a {
@@ -92,7 +52,7 @@
 			line-height: 1em;
 			margin: 0;
 			font-family: $headerFont;
-			font-size: 3.5em;
+			font-size: 4em;
 			font-weight: normal;
 			color: $darkFont;
 		}
@@ -111,43 +71,145 @@
 
 		.contacts {
 			width: 100%;
+			position: absolute;
+			bottom: 27%;
+			margin: 0;
+			text-align: center;
 
-			.twitter,
-			.mail,
-			.hashtag {
-				display: inline-block;
-				padding: 0.4rem;
-				font-size: 1.4em;
-				color: #b8b8b8;
-				background: $darkFont;
+			a {
+				font-weight: normal;
 			}
+		}
 
-			.mail {
-				margin-top: -1.1rem;
+		.twitter,
+		.mail,
+		.hashtag {
+			display: inline-block;
+			padding: 0.4rem;
+			font-size: 1.4em;
+			font-weight: normal;
+			color: #b8b8b8;
+			background: $darkFont;
+		}
+
+		.mail {
+			margin-top: -1.1rem;
+		}
+
+		#hashtag-1 {
+			margin-top: -0.9rem;
+
+			-webkit-transform: rotate(-11deg);
+			-ms-transform: rotate(-11deg);
+			transform: rotate(-11deg);
+			transform: rotate(-11deg);
+		}
+
+		#hashtag-2 {
+			display: none;
+			position: absolute;
+			top: 0;
+			right: 0;
+			font-family: $headerFont;
+			background-color: transparent;
+
+			-webkit-transform: rotate(13deg);
+			-ms-transform: rotate(13deg);
+			transform: rotate(13deg);
+		}
+
+		@media only screen
+		and (min-width: $smallDeviceMin)
+		and (max-width: $largeDeviceMin) {
+			.logo {
+				font-size: 1.6em;
 			}
-
-			.hashtag {
-				margin-top: -0.9rem;
-				transform: rotate(-11deg);
+			.contacts {
+				bottom: 17%;
 			}
-
-			@media (min-width: $smallDeviceMin) {
-				.hashtag {
-					position: absolute;
-					top: 5.2rem;
-					right: 4.8rem;
-					background: transparent;
-					font-size: 2em;
-
-					-webkit-transform: rotate(13deg);
-					-ms-transform: rotate(13deg);
-					transform: rotate(13deg);
-
-				}
+			#hashtag-1 {
+				display:none;
 			}
+			#hashtag-2 {
+				display: initial;
+				font-size: 3em;
+			}
+		}
+
+		@media only screen
+		and (min-device-width: $mediumDeviceMin)
+		and (max-device-width: $largeDeviceMin)
+		and (orientation : portrait) {
+			.logo {
+				margin-top: 3em;
+			}
+			.contacts {
+				bottom: 20%;
+			}
+			#hashtag-2 {
+				display: none;
+			}
+						.logo::after {content: 'landscape';}
 
 		}
 
+		@media only screen
+		and (min-device-width: $smallDeviceMin)
+		and (max-device-width: $largeDeviceMin)
+		and (orientation: landscape) {
+			.logo {
+				font-size: 1.1em;
+			}
+			.contacts {
+				bottom: 15%;
+			}
+			#hashtag-1 {
+				display: none;
+			}
+			#hashtag-2 {
+				display: block;
+				font-size: 2.2em;
+			}
+						.logo::after {content: 'portrait';}
+
+		}
+
+		@media only screen
+		and (min-width: $largeDeviceMin) {
+			.logo {
+				margin: 0;
+				font-size: 1.3em;
+			}
+			.contacts {
+				bottom: 15%;
+			}
+			#hashtag-1 {
+				display: none;
+			}
+			#hashtag-2 {
+				display: block;
+				font-size: 2.2em;
+			}
+		}
+
+
+		@media only screen
+		and (min-width: $veryLargeDeviceMin) {
+			.logo {
+				margin: 0;
+				font-size: 1.7em;
+			}
+			.contacts {
+				bottom: 15%;
+			}
+			#hashtag-1 {
+				display: none;
+			}
+			#hashtag-2 {
+				display: block;
+				font-size: 3em;
+			}
+		}
 	}
 
 	.section.registration {

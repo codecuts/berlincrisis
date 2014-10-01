@@ -8,6 +8,14 @@
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
+body {
+	background: $lightBgColor;
+}
+
+#content {
+	width: 100%;
+}
+
 a {
 	text-decoration: none;
 	font-weight: bold;
@@ -19,9 +27,3 @@ a {
 		}
 	}
 }
-
-#content {
-	width: 100%;
-	background: $lightBgColor;
-}
-

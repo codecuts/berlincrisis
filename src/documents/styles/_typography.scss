@@ -6,16 +6,24 @@ html {
     font-size: 62.5%; /* sets root font size to ~10px */
 }
 
-@media (min-width: $smallDeviceMin) and (orientation: portrait) {
+@media only screen
+and (min-device-width: $mediumDeviceMin)
+and (max-device-width: $largeDeviceMin) {
 	html {
 		font-size: 95%;
 	}
 }
 
-@media (min-width: $mediumDeviceMin) {
+@media only screen
+and (min-width: $largeDeviceMin) {
 	html {
 		font-size: 100%;
 	}
+}
+
+@media only screen
+and (min-width: $veryLargeDeviceMin) {
+
 }
 
 /**  Verticla Rhythm
