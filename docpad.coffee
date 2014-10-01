@@ -7,7 +7,8 @@ docpadConfig = {
 		site:
 			title: "Berlin Rethinking Crisis Conference",
 			description:"""
-			A conference to disscuss the global crisis of capitalism."""
+			We are living through a crisis of great severity, 
+			yet we lack a critical theory that could adequately clarify it."""
 			keywords: """
 			Crisis, Capitalism, Nancy Fraser, Political Theory, Marxism, Socialism, Ecology
 			Society, Democracy, Critical Theory, Political Philosophy, Critical Sociology, 
