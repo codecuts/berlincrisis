@@ -252,6 +252,7 @@
 
 	.logo {
 		display: block;
+		vertical-align: middle;
 		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -279,21 +280,38 @@
 	@media only screen
 	and (min-width: $smallDeviceMin)
 	and (max-width: $largeDeviceMin) {
-
+		.logo {
+			display: inline-block;
+		}
+		.einstein-logo {
+			width: 10em;
+			margin-right: -1em;
+		}
+		.gsnas-logo {
+			width: 12em;
+		}
+		.jfk-logo {
+			width: 14em;
+		}
 	}
 
 	@media only screen
 	and (min-device-width: $mediumDeviceMin)
 	and (max-device-width: $largeDeviceMin)
 	and (orientation : portrait) {
-		
-	}
-
-	@media only screen
-	and (min-device-width: $smallDeviceMin)
-	and (max-device-width: $largeDeviceMin)
-	and (orientation: landscape) {
-		
+		.logo {
+			display: inline-block;
+		}
+		.einstein-logo {
+			width: 7em;
+			margin-right: -1em;
+		}
+		.gsnas-logo {
+			width: 9em;
+		}
+		.jfk-logo {
+			width: 11em;
+		}
 	}
 
 	@media only screen
