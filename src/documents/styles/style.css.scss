@@ -6,15 +6,11 @@
 /**  Mobile (First) Layout
 ---------------------------------------------------- */
 
-.section {
+.section,
+.footer {
 	overflow: hidden;
 	margin: 3rem;
 }
-
-	.section.intro {
-
-
-	}
 
 /**  Mobile (First) Module Styles
 ---------------------------------------------------- */
@@ -242,3 +238,96 @@
 		}
 
 	}
+
+.footer {
+	overflow: hidden;
+
+	h1 {
+		margin: 0 0 0.89em 0;
+		font-family: $headerFont;
+		font-size: 2.25em;
+		line-height: 0.85em;
+		color: $lightFont;
+	}
+
+	.logo {
+		display: block;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.einstein-logo {
+		width: 10em;
+		height: 8em;
+		background-image: url('../images/einstein-logo.png');
+	}
+
+	.gsnas-logo {
+		width: 6em;
+		height: 6em;
+		margin-bottom: .4em;
+		background-image: url('../images/gsnas-logo.png');
+	}
+
+	.jfk-logo {
+		width: 13em;
+		height: 3em;
+		background-image: url('../images/jfk-logo.gif');
+	}
+
+	@media only screen
+	and (min-width: $smallDeviceMin)
+	and (max-width: $largeDeviceMin) {
+
+	}
+
+	@media only screen
+	and (min-device-width: $mediumDeviceMin)
+	and (max-device-width: $largeDeviceMin)
+	and (orientation : portrait) {
+		
+	}
+
+	@media only screen
+	and (min-device-width: $smallDeviceMin)
+	and (max-device-width: $largeDeviceMin)
+	and (orientation: landscape) {
+		
+	}
+
+	@media only screen
+	and (min-width: $largeDeviceMin) {
+
+		h1 {
+			margin-bottom: 0.3em;
+		}
+
+		.logo {
+			display: inline-block;
+			height: 10em;
+		}
+
+		.gsnas-logo {
+			width: 9em;
+			margin-right: 2em;
+		}
+
+		.einstein-logo {
+			width: 9em;
+			margin-right: 1.4em;
+		}
+
+		.jfk-logo {
+			width: 13em;
+		}
+
+	}
+
+
+	@media only screen
+	and (min-width: $veryLargeDeviceMin) {
+	}
+
+}
+
