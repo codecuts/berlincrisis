@@ -11,6 +11,9 @@
 	<section class="schedule section">
 		<%- @partial('schedule') %>
 	</section>
+	<section class="bios section">
+		<%- @partial('bios') %>
+	</section>
 	<footer class="footer">
 		<h1>with the support of...</h2>
 		<a href="http://www.einsteinfoundation.de/en/home.html" class="logo einstein-logo"></a>
