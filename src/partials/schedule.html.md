@@ -16,7 +16,11 @@ Larry Lohmann, The Corner House, London
 Cindi Katz, Professor of Geography, City University of New York  
 *Intimate Dispossessions – Social Reproduction, Nature and the Crisis of Capitalism*
 
-Response: Larry Reynolds, Einstein postdoctoral fellow, JFKI-GSNAS, Free University, Berlin 
+Response:  
+Larry Reynolds, Einstein postdoctoral fellow, JFKI-GSNAS, Free University, Berlin  
+
+Chair:  
+Dr. Barbara Muraca: Post-Doc DFG-advanced Research Group 'Post-Growth-Societies', Friedrich-Schiller-Universität Jena, Germany, Assistant Professor, Oregon State University
 
 13.00 – 14.30: lunch break
 
@@ -30,7 +34,11 @@ Amy Dru Stanley, Professor of History, University of Chicago
 Johanna Oksala, University of Helsinki and New School for Social Research  
 *Affective Labor and Feminist Politics*
 
-Response: Ethan Zane Miller, Einstein postdoctoral fellow, JFKI-GSNAS, Free University, Berlin 
+Response:  
+Ethan Zane Miller, Einstein postdoctoral fellow, JFKI-GSNAS, Free University, Berlin 
+
+Chair:  
+Eva Von Redecker, M.A., Humboldt University, Berlin
 
 17.00 – 17.30: coffee break
 
@@ -40,7 +48,11 @@ Response: Ethan Zane Miller, Einstein postdoctoral fellow, JFKI-GSNAS, Free Univ
 Colin Crouch, Max Planck Institute for the Study of Societies, Cologne and Emeritus Professor, Warwick University.   
 *The problem of externalities: the vulnerable point of capitalist theory?*  
 
-Response: Nancy Fraser, Loeb Professor of Politics and Philosophy, New School for Social Research, and Einstein fellow, JFKI-GSNAS, Free University, Berlin 
+Response:  
+Nancy Fraser, Loeb Professor of Politics and Philosophy, New School for Social Research, and Einstein fellow, JFKI-GSNAS, Free University, Berlin 
+
+Chair:  
+Prof. Dr. Rahel Jaeggi, Humboldt Universität zu Berlin, Institut für Philosophie
 
 19.00 – 20.00: Reception
 
@@ -56,7 +68,11 @@ Susan Watkins, Editor, New Left Review
 Hauke Brunkhorst, Professor of Sociology, European University of Flensburg  
 *Crisis and Democracy: The Case of the European Union*
 
-Response: Brian Milstein, Gerda Henkel fellow, College d’etudes mondiales, Paris
+Response:  
+Brian Milstein, Gerda Henkel fellow, College d’etudes mondiales, Paris
+
+Chair:  
+Serhat Karakayali, Assistant Professor at the Institute for Social Science, Humboldt Universität Berlin
   
 12.30 – 13.30: lunch break
 
@@ -70,7 +86,11 @@ Isabella Bakker, Distinguished Research Professor, Political Science, York Unive
 José Luis Corragio, Emeritus Professor and Academic Director of the Masters in Social Economy, Universidad Nacional de General Sarmiento, Argentina  
 *Social Economy, Democracy, Revolution: A Latin American View*
 
-Response: Blair Taylor, Einstein doctoral fellow, JFKI-GSNAS, Free University, Berlin 
+Response:  
+Blair Taylor, Einstein doctoral fellow, JFKI-GSNAS, Free University, Berlin 
+
+Chair:  
+Prof. Dr. Michael Brie, Senior Fellow of the Institute for Critical Social Analysis of the Rosa Luxemburg Foundation, Berlin
 
 16.00 – 16.30: coffee break
 
